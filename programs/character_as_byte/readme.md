@@ -7,7 +7,15 @@ This program accepts a character from the user and prints its ASCII value
 ## Output
 
 ```
+Enter a character: 
+long word
+You entered multiple characters!
+Enter a character: 
 
+You did not enter a character!
+Enter a character: 
+G
+ASCII value of G = [71]
 ```
 
 ## Lessons
@@ -166,3 +174,5 @@ Enter a character:
 ```
 
 :-O
+
+**Research Yield:** `std::io::stdin().read_line` appends to the buffer it is given. Replacing occurences of `word.clear()` with `input.clear()` fixed the behavior.

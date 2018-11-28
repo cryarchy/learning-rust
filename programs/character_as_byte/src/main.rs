@@ -13,10 +13,10 @@ fn get_character() -> Result<char, Box<Error>> {
 	    character_count = word.len();
 	    if character_count == 0 {
 			println!("You did not enter a character!");
-			word.clear();
+			input.clear();
 		} else if character_count > 1 {
 			println!("You entered multiple characters!");
-			word.clear();
+			input.clear();
 		} else {
 		    break;
 		}
