@@ -25,7 +25,7 @@ ASCII value of G = [71]
 Tried to do:
 
 ```rust
-let mut word = "";
+let mut word;
 loop {
     ...
     word = input.trim();
@@ -97,6 +97,8 @@ loop {
 ```
 
 Some part of me knows why this would fix it. I seem to be out of touch with that part as I have no explanation. :-[
+
+**Research Yield:** It turn out that as of this writing (28/11/2018) there exists a lack of non-lexical lifetimes which causes the *mutable* borrowing of `input` not to end after `read_line` terminates. This will be fixed soon (06/12/2018). Thanks, Yaniel.
 
 -   Looping and updating variables
 
