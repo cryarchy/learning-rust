@@ -1,0 +1,6 @@
+[package]
+name = "multiply_floats"
+version = "0.1.0"
+authors = ["cryarchy <crystalflow.mwangi@gmail.com>"]
+
+[dependencies]
