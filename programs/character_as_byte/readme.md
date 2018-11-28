@@ -175,4 +175,4 @@ Enter a character:
 
 :-O
 
-**Research Yield:** `std::io::stdin().read_line` appends to the buffer it is given. Replacing occurences of `word.clear()` with `input.clear()` fixed the behavior.
+**Research Yield:** `std::io::stdin().read_line` appends to the buffer it is given. Replacing occurences of `word.clear()` with `input.clear()` fixed the behavior. Thanks, Yaniel!
