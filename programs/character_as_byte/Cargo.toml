@@ -1,0 +1,6 @@
+[package]
+name = "character_as_byte"
+version = "0.1.0"
+authors = ["cryarchy <crystalflow.mwangi@gmail.com>"]
+
+[dependencies]
